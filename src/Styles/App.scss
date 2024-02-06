@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    
+
+    &__SideBar {
+        flex: 1;
+    }
+
+    &__RightSide {
+        flex: 3;
+    }
+}

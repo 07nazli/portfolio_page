@@ -1,3 +1,53 @@
-.side-bar {
-    background-color: red;
+.side-bar{
+    background-color: #fdf9ff;
+    padding: 25%;
+
+    &__logo {
+        position: relative;
+        a {
+            font-size: 2.5rem;
+            color: #302e4d;
+            font-weight: bold;
+
+            &::before, &::after {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+            }
+            &::before {
+                border-bottom: 5px solid tomato;
+                border-left: 5px solid tomato;
+                bottom: -20px;
+                left: -30px;
+            }
+            &::after {
+                border-top: 5px solid tomato;
+                border-right: 5px solid tomato;
+                top: -20px;
+                right: -50px;
+            }
+        }
+    }
+    &__menu {
+        margin-top: 120px;
+        &__list {
+            &__item {
+                border-bottom: 1px solid #6461865e;
+                margin-bottom: 20px;
+                padding: 20px 0 10px;
+                color: #504e70;
+                font-size: 1.2rem;
+                transition: 0.5s;
+                a {
+                    margin-left: 10px;
+                    color: inherit;
+                }
+                &:hover {
+                    color: tomato;
+                }
+
+            }
+        }
+    }
 }

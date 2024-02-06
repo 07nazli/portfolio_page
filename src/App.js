@@ -4,7 +4,7 @@ import "./Styles/App.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App reset">
       <div className="App__SideBar">
         <SideBar />
       </div>

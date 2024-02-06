@@ -3,13 +3,14 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { TiThList } from "react-icons/ti";
 import { IoBag } from "react-icons/io5";
 import { TbMessageCircle2Filled } from "react-icons/tb";
+import './SideBar.scss';
 
 export default function SideBar() {
     return ( 
     <header className='side-bar'>
 
         <div className='side-bar__logo'>
-            <a href="https://www.linkedin.com/in/esmanazli007/">Esma Nazlı</a>
+            <a href="https://www.linkedin.com/in/esmanazli007/">EsmaNazlı</a>
         </div>
 
         <nav className='side-bar__menu'>

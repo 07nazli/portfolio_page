@@ -26,9 +26,6 @@ export default function RightSide() {
 
     return (
         <header className='right-side'>
-            <div>
-                <h1 className='RightSide__header'>BAŞLIK</h1>
-            </div>
             <div className='RightSide__container'>
                 <div className="container">
                     <span className="text first-text">I'm a</span>

@@ -3,12 +3,9 @@
 .App {
     display: flex;
     font-family: 'Poppins', sans-serif;
-    
-
     &__SideBar {
         flex: 1;
     }
-
     &__RightSide {
         flex: 3;
     }
@@ -16,8 +13,7 @@
 
 .reset {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;;
     a {
         text-decoration: none;
     }
